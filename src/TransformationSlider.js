@@ -28,20 +28,20 @@ const TransformationSlider = () => {
         title: "Fragmented & Opaque",
         description: "Money moves through disconnected systems with limited visibility",
         points: [
-          "Financial data trapped in separate systems",
-          "No connection between donations and programs",
-          "Audit preparation requires weeks of work",
-          "No real-time tracking of allocation"
+          "Financial records scattered across multiple systems",
+          "Donations not clearly linked to specific programs",
+          "Audit preparation requires weeks of manual work",
+          "No easy way to track how donations are used"
         ]
       },
       after: {
         title: "Connected & Clear",
-        description: "Every dollar tracked from donation to impact in a unified system",
+        description: "Every dollar tracked from receipt to program use in one system",
         points: [
-          { text: "All transactions linked, tagged and timestamped", status: "mvp" },
-          { text: "Verifiable map of philanthropy across programs", status: "mvp" },
-          { text: "Audit-ready by default, documentation attached", status: "mvp" },
-          { text: "Real-time visibility without added work", status: "mvp" }
+          { text: "All transactions linked, tagged and documented", status: "mvp" },
+          { text: "Clear view of how donations support each program", status: "mvp" },
+          { text: "Audit-ready documentation automatically attached", status: "mvp" },
+          { text: "Real-time visibility without extra work", status: "mvp" }
         ]
       }
     },
@@ -57,17 +57,17 @@ const TransformationSlider = () => {
           "Marketing effectiveness trumps actual program results",
           "Smaller organizations struggle for visibility",
           "Donation purposes often get lost in the system",
-          "Limited transparency into fund allocations"
+          "Limited transparency into how funds are used"
         ]
       },
       after: {
         title: "Evidence-Based",
-        description: "Transparent allocation data helps donors find organizations aligned with their values",
+        description: "Transparent records help donors find organizations aligned with their values",
         points: [
-          { text: "Nonprofits share verified donation purposes and allocations", status: "mvp" },
+          { text: "Nonprofits share verified donation purposes and uses", status: "mvp" },
           { text: "All organizations visible regardless of size", status: "coming-soon" },
-          { text: "Donation transparency improves donor-nonprofit matching", status: "future" },
-          { text: "Program-specific impacts become trackable and comparable", status: "future" }
+          { text: "Transparency improves donor-nonprofit matching", status: "future" },
+          { text: "Program results become trackable and comparable", status: "future" }
         ]
       }
     },
@@ -78,22 +78,22 @@ const TransformationSlider = () => {
       phase: "mvp", // MVP Feature
       before: {
         title: "Reactive & Burdensome",
-        description: "Staff spend excessive time on documentation and reporting",
+        description: "Staff spend excessive time on paperwork and reporting",
         points: [
-          "Documentation assembled after the fact",
-          "Reporting requires manual data compilation",
-          "Board oversight limited by information gaps",
-          "High administrative burden for compliance"
+          "Documentation gathered after the fact",
+          "Creating reports requires manual data gathering",
+          "Board members lack clear financial insights",
+          "Compliance work creates administrative burden"
         ]
       },
       after: {
         title: "Proactive & Streamlined",
-        description: "Systems automatically create audit trails without added effort",
+        description: "Systems automatically create documentation without added effort",
         points: [
-          { text: "Documentation attached at point of transaction", status: "mvp" },
-          { text: "One-click reporting from verified data", status: "coming-soon" },
-          { text: "Board gets complete financial picture instantly", status: "coming-soon" },
-          { text: "Compliance built into everyday operations", status: "mvp" }
+          { text: "Documentation attached when money is received", status: "mvp" },
+          { text: "One-click reporting from verified records", status: "coming-soon" },
+          { text: "Board members see how donations support each program", status: "coming-soon" },
+          { text: "Compliance happens as part of everyday work", status: "mvp" }
         ]
       }
     },
@@ -104,22 +104,22 @@ const TransformationSlider = () => {
       phase: "future", // Future Vision
       before: {
         title: "Rearview Mirror",
-        description: "Organizations operate on historical data and intuition",
+        description: "Organizations make decisions based on outdated information",
         points: [
-          "Funding gaps discovered when it's too late",
-          "Limited ability to detect potential issues",
-          "Reactive approach to resource allocation",
-          "Limited cross-organization insights"
+          "Funding shortages discovered too late",
+          "Problems spotted only after they occur",
+          "Reactive approach to managing resources",
+          "Limited insights across different organizations"
         ]
       },
       after: {
         title: "Forward-Looking",
-        description: "AI-powered forecasting enables proactive management",
+        description: "Data-driven predictions help organizations plan ahead",
         points: [
-          { text: "Early warning system for potential gaps", status: "future" },
-          { text: "Anomaly detection prevents problems", status: "future" },
-          { text: "Data-informed strategic planning", status: "coming-soon" },
-          { text: "Sector-wide patterns inform strategy", status: "future" }
+          { text: "Early warnings about potential funding gaps", status: "future" },
+          { text: "Unusual patterns flagged before becoming problems", status: "future" },
+          { text: "Better planning through organized data", status: "coming-soon" },
+          { text: "Learning from trends across similar organizations", status: "future" }
         ]
       }
     },
@@ -130,22 +130,22 @@ const TransformationSlider = () => {
       phase: "coming-soon", // Coming Soon
       before: {
         title: "Defensive Posture",
-        description: "Sector constantly defending against negative headlines",
+        description: "Nonprofits constantly defending against criticism",
         points: [
-          "Public skepticism about overhead costs",
-          "Media focus on outlier scandals",
-          "Difficulty proving collective impact",
-          "Limited evidence for funding approach"
+          "Public doubts about administrative costs",
+          "News focuses on rare nonprofit scandals",
+          "Difficulty showing collective good work",
+          "Limited proof of effective funding use"
         ]
       },
       after: {
         title: "Confidence & Proof",
-        description: "Verifiable data builds credibility and changes perceptions",
+        description: "Verified records build trust and improve public perception",
         points: [
-          { text: "Transparent allocation ratios build trust", status: "mvp" },
-          { text: "Aggregate data counters harmful myths", status: "coming-soon" },
-          { text: "Collective impact clearly demonstrated", status: "future" },
-          { text: "Evidence-based case for flexible funding", status: "future" }
+          { text: "Clear breakdown of how donations are used", status: "mvp" },
+          { text: "Industry-wide data challenges misperceptions", status: "coming-soon" },
+          { text: "Combined impact of nonprofits clearly shown", status: "future" },
+          { text: "Data proves the value of unrestricted donations", status: "future" }
         ]
       }
     },
@@ -156,22 +156,22 @@ const TransformationSlider = () => {
       phase: "future", // Future Vision
       before: {
         title: "Top-Down Reporting",
-        description: "Impact reported from organizational perspective only",
+        description: "Results reported only from the organization's view",
         points: [
-          "Limited beneficiary validation of claims",
-          "Community voice often missing",
-          "Self-reported outcomes create skepticism",
-          "Disconnect between funders and recipients"
+          "Limited input from people receiving services",
+          "Community perspectives rarely included",
+          "Self-reported results create skepticism",
+          "Gap between funders and communities served"
         ]
       },
       after: {
-        title: "Multi-Directional Validation",
-        description: "Communities actively participate in verification",
+        title: "Community-Inclusive Verification",
+        description: "People served by nonprofits help confirm actual results",
         points: [
-          { text: "Beneficiary feedback integrated into platform", status: "future" },
-          { text: "Community validation closes trust loop", status: "future" },
-          { text: "Decentralized verification proves impact", status: "future" },
-          { text: "Direct connection from donor to community", status: "future" }
+          { text: "Feedback from service recipients included", status: "future" },
+          { text: "Community voices confirm organization claims", status: "future" },
+          { text: "Multiple sources verify actual results", status: "future" },
+          { text: "Direct connection between donors and communities", status: "future" }
         ]
       }
     }

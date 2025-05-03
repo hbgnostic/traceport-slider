@@ -90,9 +90,9 @@ const TransformationSlider = () => {
         title: "Proactive & Streamlined",
         description: "Systems automatically create documentation without added effort",
         points: [
-          { text: "Documentation attached when money is received", status: "mvp" },
-          { text: "One-click reporting from verified records", status: "coming-soon" },
-          { text: "Board members see how donations support each program", status: "coming-soon" },
+          { text: "Documentation organized upfront instead of last-minute", status: "mvp" },
+          { text: "One-click reporting from verified records", status: "mvp" },
+          { text: "Board members see how donations support each program", status: "mvp" },
           { text: "Compliance happens as part of everyday work", status: "mvp" }
         ]
       }

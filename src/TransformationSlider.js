@@ -51,23 +51,23 @@ const TransformationSlider = () => {
       icon: Handshake,
       phase: "coming-soon", // Coming Soon
       before: {
-        title: "Marketing-Driven Philanthropy",
-        description: "Today's nonprofit funding relies on marketing rather than verified impact",
+        title: "Marketing-Driven",
+        description: "Donors make decisions based on limited, curated information",
         points: [
-          "Large organizations with marketing budgets dominate visibility",
-          "Donors struggle to find authentic impact information",
-          "Restricted funds often lack transparent tracking",
-          "Underserved communities remain disconnected from funders"
+          "Marketing effectiveness trumps true impact visibility",
+          "Small organizations struggle for discovery and funding",
+          "Donor intent often mismatched with actual needs",
+          "Underserved communities lack direct donor access"
         ]
       },
       after: {
-        title: "Need-Driven Ecosystem",
-        description: "Real-time verified data connects donors directly to needs—without adding burden",
+        title: "Need-Driven",
+        description: "Donors and communities find each other through verified data",
         points: [
-          { text: "Donors make decisions using verifiable impact data", status: "coming-soon" },
-          { text: "Small organizations gain equal visibility through transparency", status: "coming-soon" },
-          { text: "Donor intentions tracked from contribution to outcome", status: "future" },
-          { text: "Communities signal needs directly to potential funders", status: "future" }
+          { text: "Funding decisions based on verified financial data", status: "coming-soon" },
+          { text: "All organizations visible regardless of size", status: "coming-soon" },
+          { text: "Donor intent signals guide resource flow", status: "future" },
+          { text: "Communities directly signal needs to funders", status: "future" }
         ]
       }
     },

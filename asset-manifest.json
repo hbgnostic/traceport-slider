@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/traceport-slider/static/css/main.8b5f566c.css",
+    "main.js": "/traceport-slider/static/js/main.22f43c36.js",
+    "static/js/453.6cfb7eec.chunk.js": "/traceport-slider/static/js/453.6cfb7eec.chunk.js",
+    "index.html": "/traceport-slider/index.html",
+    "main.8b5f566c.css.map": "/traceport-slider/static/css/main.8b5f566c.css.map",
+    "main.22f43c36.js.map": "/traceport-slider/static/js/main.22f43c36.js.map",
+    "453.6cfb7eec.chunk.js.map": "/traceport-slider/static/js/453.6cfb7eec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b5f566c.css",
+    "static/js/main.22f43c36.js"
+  ]
+}

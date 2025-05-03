@@ -47,27 +47,27 @@ const TransformationSlider = () => {
     },
     {
       id: 1,
-      title: "Funding Alignment",
+      title: "Demand-Side Funding Alignment",
       icon: Handshake,
       phase: "coming-soon", // Coming Soon
       before: {
-        title: "Marketing-Driven",
-        description: "Donors make decisions based on limited, curated information",
+        title: "Marketing-Driven Philanthropy",
+        description: "Today's nonprofit funding relies on marketing rather than verified impact",
         points: [
-          "Marketing effectiveness trumps true impact",
-          "Small organizations struggle for visibility",
-          "Donor intent often mismatched with reality",
-          "Communities have limited voice in process"
+          "Large organizations with marketing budgets dominate visibility",
+          "Donors struggle to find authentic impact information",
+          "Restricted funds often lack transparent tracking",
+          "Underserved communities remain disconnected from funders"
         ]
       },
       after: {
-        title: "Need-Driven",
-        description: "Donors and communities find each other through verified data",
+        title: "Need-Driven Ecosystem",
+        description: "Real-time verified data connects donors directly to needs—without adding burden",
         points: [
-          { text: "Funding decisions based on verified data", status: "coming-soon" },
-          { text: "All organizations visible regardless of size", status: "coming-soon" },
-          { text: "Donor intent signals guide resource flow", status: "future" },
-          { text: "Communities directly signal needs to funders", status: "future" }
+          { text: "Donors make decisions using verifiable impact data", status: "coming-soon" },
+          { text: "Small organizations gain equal visibility through transparency", status: "coming-soon" },
+          { text: "Donor intentions tracked from contribution to outcome", status: "future" },
+          { text: "Communities signal needs directly to potential funders", status: "future" }
         ]
       }
     },

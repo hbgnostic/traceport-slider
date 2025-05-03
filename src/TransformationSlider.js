@@ -47,27 +47,27 @@ const TransformationSlider = () => {
     },
     {
       id: 1,
-      title: "Demand-Side Funding Alignment",
+      title: "Donation & Grant Alignment",
       icon: Handshake,
       phase: "coming-soon", // Coming Soon
       before: {
-        title: "Marketing-Driven",
-        description: "Donors make decisions based on limited, curated information",
+        title: "Marketing-Based",
+        description: "Donors decide based on limited, curated information",
         points: [
-          "Marketing effectiveness trumps true impact visibility",
-          "Small organizations struggle for discovery and funding",
-          "Donor intent often mismatched with actual needs",
-          "Underserved communities lack direct donor access"
+          "Marketing effectiveness trumps actual program results",
+          "Smaller organizations struggle for visibility",
+          "Donation purposes often get lost in the system",
+          "Limited transparency into fund allocations"
         ]
       },
       after: {
-        title: "Need-Driven",
-        description: "Donors and communities find each other through verified data",
+        title: "Evidence-Based",
+        description: "Transparent allocation data helps donors find organizations aligned with their values",
         points: [
-          { text: "Funding decisions based on verified financial data", status: "coming-soon" },
+          { text: "Nonprofits share verified donation purposes and allocations", status: "mvp" },
           { text: "All organizations visible regardless of size", status: "coming-soon" },
-          { text: "Donor intent signals guide resource flow", status: "future" },
-          { text: "Communities directly signal needs to funders", status: "future" }
+          { text: "Donation transparency improves donor-nonprofit matching", status: "future" },
+          { text: "Program-specific impacts become trackable and comparable", status: "future" }
         ]
       }
     },
